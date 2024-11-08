@@ -143,7 +143,7 @@ export default function Page() {
                   description={project.description}
                   dates={project.dates}
                   tags={project.technologies}
-                  image={project.image || '/placeholder.jpg'} // Use a placeholder image if project.image is not available
+                  image={project.image || '/me.png'} // Use a placeholder image if project.image is not available
                   video={project.video}
                   links={project.links}
                 />
