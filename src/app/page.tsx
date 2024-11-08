@@ -143,7 +143,7 @@ export default function Page() {
                   description={project.description}
                   dates={project.dates}
                   tags={project.technologies}
-                  image={project.image}
+                  image={project.image || '/placeholder.jpg'} // Use a placeholder image if project.image is not available
                   video={project.video}
                   links={project.links}
                 />
@@ -186,7 +186,7 @@ export default function Page() {
                     description={project.description}
                     location={project.location}
                     dates={project.dates}
-                    image={project.image}
+                    image={project.image || '/me.png'} // Use a placeholder image if project.image is not available
                     links={project.links}
                   />
                 </BlurFade>
